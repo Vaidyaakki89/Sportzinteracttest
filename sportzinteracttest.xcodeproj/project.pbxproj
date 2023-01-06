@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F7CDB0392967F4470084A57E /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CDB0382967F4470084A57E /* CustomView.swift */; };
 		F7CE2C7129671CD70061C5D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CE2C7029671CD70061C5D3 /* AppDelegate.swift */; };
 		F7CE2C7329671CD70061C5D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CE2C7229671CD70061C5D3 /* SceneDelegate.swift */; };
 		F7CE2C7529671CD70061C5D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CE2C7429671CD70061C5D3 /* ViewController.swift */; };
@@ -22,7 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7CDB0382967F4470084A57E /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		F7CDB040296838A50084A57E /* sportzinteracttest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sportzinteracttest.entitlements; sourceTree = "<group>"; };
 		F7CE2C6D29671CD70061C5D3 /* sportzinteracttest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sportzinteracttest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CE2C7029671CD70061C5D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,14 +83,6 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		F7CDB03E29681C920084A57E /* Designable */ = {
-			isa = PBXGroup;
-			children = (
-				F7CDB0382967F4470084A57E /* CustomView.swift */,
-			);
-			path = Designable;
-			sourceTree = "<group>";
-		};
 		F7CDB03F29681CAD0084A57E /* NetworkRequest */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,7 +115,6 @@
 				F7CDB03C29681C470084A57E /* View */,
 				F7CDB03B29681C350084A57E /* Model */,
 				F7CDB03A29681C0F0084A57E /* Controller */,
-				F7CDB03E29681C920084A57E /* Designable */,
 				F7CE2C7029671CD70061C5D3 /* AppDelegate.swift */,
 				F7CE2C7229671CD70061C5D3 /* SceneDelegate.swift */,
 				F7CE2C7929671CD70061C5D3 /* Assets.xcassets */,
@@ -208,7 +197,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7CE2C8729671E200061C5D3 /* DataModel.swift in Sources */,
-				F7CDB0392967F4470084A57E /* CustomView.swift in Sources */,
 				F7CE2C7529671CD70061C5D3 /* ViewController.swift in Sources */,
 				F7CE2C7129671CD70061C5D3 /* AppDelegate.swift in Sources */,
 				F7CE2C8C2967521D0061C5D3 /* nameCell.swift in Sources */,

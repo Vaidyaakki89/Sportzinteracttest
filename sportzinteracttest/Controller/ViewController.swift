@@ -30,6 +30,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        holderview.layer.cornerRadius = 10
+        holderview.layer.borderColor = UIColor.lightGray.cgColor
+        
         segment.selectedSegmentTintColor = .systemBlue
         holderview.layer.borderWidth = 1
         triggerApi(matchapi: "https://demo.sportz.io/nzin01312019187360.json")

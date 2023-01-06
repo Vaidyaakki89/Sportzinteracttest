@@ -32,10 +32,11 @@ class ViewController2: UIViewController{
     func preparenavigationbar(){
         
         self.navigationController?.setNavigationBarHidden(false, animated: false)
-        navigationController?.navigationBar.topItem?.backButtonTitle = ""
+        navigationController?.navigationBar.backItem?.backButtonTitle = ""
         navigationController?.navigationBar.tintColor = .white
+        navigationController?.navigationBar.barTintColor = .systemBlue
         
-      self.title = "PLAYER INFORMATION"
+      self.title = "TEAMS"
      let listbutton = UIBarButtonItem(image: UIImage(systemName: "list.dash"), style: .done, target: self, action: #selector(filterlist))
 
      
@@ -142,7 +143,7 @@ extension ViewController2{
         let teamA = primeteammodel?[0].nameFull
         let teamB = primeteammodel?[1].nameFull
         
-        let alert = UIAlertController(title: "Choose Team", message: "", preferredStyle: .actionSheet)
+        let alert = UIAlertController(title: "Filter", message: "", preferredStyle: .actionSheet)
         
         let teamAaction = UIAlertAction(title: teamA, style: .default, handler: {action in
             
@@ -186,7 +187,7 @@ extension ViewController2{
         lbl2.text = battinstyle
         lbl2.font = lbl2.font.withSize(16)
         
-        let alert = UIAlertController(title: "\(playermodel?[indexPath.row].nameFull ?? "")", message: "\n\n\n\n\n", preferredStyle: .alert)
+        let alert = UIAlertController(title: "\(playermodel?[indexPath.row].nameFull ?? "")", message: "\n\n\n\n", preferredStyle: .alert)
         
         lbl.frame = CGRect(x: 70, y: 80, width: 200, height: 30)
         lbl2.frame = CGRect(x: 70, y: 50, width: 200, height: 30)

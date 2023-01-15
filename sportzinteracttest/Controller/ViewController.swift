@@ -81,14 +81,14 @@ class ViewController: UIViewController {
                     a.nameShort < b.nameShort
                 }
                 
-                firstflagimg.image = UIImage(named: teammodel?[0].nameShort ?? "")
-                secondflagimg.image = UIImage(named: teammodel?[1].nameShort ?? "")
+//                firstflagimg.image = UIImage(named: teammodel?[0].nameShort ?? "")
+//                secondflagimg.image = UIImage(named: teammodel?[1].nameShort ?? "")
                 
                 teamAlbl.text = teammodel?[0].nameFull ?? ""
                 teamBlbl.text = teammodel?[1].nameFull ?? ""
                 venuelbl.text = model?.matchdetail.venue.name
                 timelbl.text = "\(model?.matchdetail.match.date.getDate() ?? ""), \(model?.matchdetail.match.time.getTime() ?? "")"
-                
+                //print
 
                 
                 print(teammodel ?? [])
